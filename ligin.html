@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login page</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div id="flix-login">
+      <h1>Ethioflix login page</h1>
+      <h3>Enter your credentials</h3>
+      <form action="">
+        <label for="first"> username: </label>
+        <input
+          type="text"
+          id="first"
+          name="first"
+          placeholder="Enter your username"
+          required
+        />
+        <label for="password"> password: </label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter your password"
+          required
+        />
+        <div id="flix-submit">
+          <button type="submit" onclick="solve()">Submit</button>
+        </div>
+      </form>
+      <p>
+        Not registered?
+        <a href="#" style="text-decoration: none"> Create an account</a>
+      </p>
+    </div>
+  </body>
+</html>
