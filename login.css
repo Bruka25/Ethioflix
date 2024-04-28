@@ -14,7 +14,15 @@ body {
   background-repeat: no-repeat;
 }
 
-#flix-login {
+.flix-submit
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+
+/* .flix-login{
   border-radius: 15px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   padding: 10px 20px;
@@ -22,6 +30,8 @@ body {
   width: 400px;
   text-align: center;
 }
+*/
+
 
 h1 {
   color: yellow;
@@ -60,8 +70,4 @@ button {
   font-size: 16px;
 }
 
-#flix-submit {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
