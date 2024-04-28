@@ -1,10 +1,15 @@
 body {
-    margin: auto 0;
+   margin: auto 0;
     padding: 0;
     width: 100%;
-    background: #d8c200ad;
+    /*background: #d8c200ad;*/
+    min-height: 100vh;
+    background: url(images/istockphoto-1412871535-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
     position: absolute;
     overflow-x: hidden; 
+   
 }
 header {
     width: 100%;
@@ -64,32 +69,37 @@ header button {
     justify-content: center;
     justify-content: space-evenly;
     width: 75%;
-    background: #05040ec2;
+    /*background: #05040ec2;*/
     padding: 2rem;
     border-radius: 8px;
+    overflow-x: auto;
+
 }
 
+.trending::-webkit-scrollbar {
+    display: none;
+  }
 .trending img {
     width: 12rem;
     height: 18rem;
 }
 
 .trending p {
-    background: rgb(42, 43, 35);
     margin-top: 0;
     padding: 8px;
     color: antiquewhite;
 }
 
 .popular {
-    display: flex;
+    display: none;
     margin: auto;
-    justify-content: first baseline;
     width: 90%;
     overflow-x: auto;
     white-space: nowrap;
     padding: 20px;
 }
+
+
 
 .popular::-webkit-scrollbar {
     display: none;
