@@ -10,7 +10,25 @@
         <nav>
             <ul>
                 <li>Home</li>
-                <li>Genre</li>
+                    <li> <!-- Add class "dropdown" to create a dropdown -->
+                    <a href="#">Genre</a> <!-- Use an anchor tag as the dropdown button -->
+                          <ul class="dropdown">
+                        <li><a href="#">Action</a></li> <!-- Example genre options -->
+                        <li><a href="#">Comedy</a></li>
+                        <li><a href="#">Drama</a></li>
+                        <!-- Add more genre options as needed -->
+                    </ul>
+                    </li>
+                    <li>
+                        <a href="#">Country</a>
+                        <ul class="dropdown">
+                            <a href="#">Ethiopia</a>
+                            <a href="#">America</a>
+                            <a href="#">UK</a>
+                            <a href="#">South Africa</a>
+                            <a href="#">Australia</a>
+                        </ul>
+                    </li>
                 <li>Category</li>
                 <li>About</li>
             </ul>

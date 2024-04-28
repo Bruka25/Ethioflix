@@ -4,20 +4,35 @@ import avengers from './images/avengers.jpg'
 import panther from './images/panther.jpg'
 import us from './images/us.jpg'
 import batman from './images/batman.jpg'
-
-
-function Home () {
+const Home = () => {
   return (
     <div>
-    <header>
+      <header>
         <nav>
             <ul>
                 <li>Home</li>
-                <li>Genre</li>
+                <li> 
+                    <a href="#">Genre</a> 
+                          <ul class="dropdown">
+                        <li><a href="#">Action</a></li> 
+                        <li><a href="#">Comedy</a></li>
+                        <li><a href="#">Drama</a></li>
+                    </ul>
+                    </li>
+                    <li>
+                        <a href="#">Country</a>
+                        <ul class="dropdown">
+                            <a href="#">Ethiopia</a>
+                            <a href="#">America</a>
+                            <a href="#">UK</a>
+                            <a href="#">South Africa</a>
+                            <a href="#">Australia</a>
+                        </ul>
+                        </li>
                 <li>Category</li>
                 <li>About</li>
             </ul>
-        </nav>
+        </nav> 
         <button>Sign Up</button>
     </header>
     <div className="home_trending">
@@ -96,4 +111,4 @@ function Home () {
   )
 }
 
-export default Home;
+export default Home

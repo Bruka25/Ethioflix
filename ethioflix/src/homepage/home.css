@@ -2,7 +2,7 @@ body {
     margin: auto 0;
     padding: 0;
     width: 100%;
-    background: #d8c200ad;
+    background: darkgoldenrod;
     position: absolute;
     overflow-x: hidden; 
 }
@@ -21,19 +21,20 @@ header {
 nav ul {
     display: flex;
     list-style: none;
+    font-size: large;
+
 }
 
 nav ul li {
     margin-left: 2rem;
 }
-
 nav ul li:hover {
     color: rgb(72, 0, 94);
 }
 
-button {
+header button {
     border: none;
-    border-radius: 4px;
+    border-radius:4px;
     padding: 8px;
     background: red;
     color: aliceblue;
@@ -112,4 +113,36 @@ footer {
     bottom: 0;
     width: 100%;
     margin-top: 2rem;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+ul li a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: large;
+
+}
+
+ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown{
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li a:hover{
+    background: gray;   
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+    position: relative;
 }
