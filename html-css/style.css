@@ -4,7 +4,7 @@ body {
     width: 100%;
     /*background: #d8c200ad;*/
     min-height: 100vh;
-    background: url(images/istockphoto-1412871535-612x612.jpg);
+    background: url(../images/istockphoto-1412871535-612x612.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
     position: absolute;
@@ -154,7 +154,3 @@ ul li a:hover{
     background: gray;   
 }
 
-ul li:hover > ul.dropdown{
-    display: block;
-    position: relative;
-}
