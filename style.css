@@ -45,6 +45,8 @@ header button {
     color: aliceblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 500;
+    margin-right: -20rem;
+    
 }
 
 .home_trending {
@@ -152,7 +154,7 @@ ul li a:hover{
     background: gray;   
 }
 
-ul li:hover ul.dropdown{
+ul li:hover > ul.dropdown{
     display: block;
     position: relative;
 }
