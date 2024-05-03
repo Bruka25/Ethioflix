@@ -1,10 +1,10 @@
 import React from 'react';
-import Category from './category/category';
+import Login from './login/login';
 
 function App() {
   return (
     <div className="App">
-      <Category/>
+      <Login/>
     </div>
   );
 }
