@@ -1,10 +1,10 @@
 import React from 'react';
-import Login from './login/login';
+import Footer from './footer/footer';
 
 function App() {
   return (
     <div className="App">
-      <Login/>
+      <Footer/>
     </div>
   );
 }

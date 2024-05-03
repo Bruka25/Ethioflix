@@ -1,7 +1,7 @@
 import React from 'react';
 import './login.css';
 
-function Login() { // Updated function name to start with uppercase
+function Login() { 
   return (
       <div className="flix-login">
         <h1>Ethioflix login page</h1>
@@ -35,4 +35,4 @@ function Login() { // Updated function name to start with uppercase
   );
 }
 
-export default Login; // Updated export statement
+export default Login; 
