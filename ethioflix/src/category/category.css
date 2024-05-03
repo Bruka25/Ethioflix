@@ -4,8 +4,7 @@ body {
     padding: 0; /* Remove default padding */
     background: url(../images/istockphoto-1412871535-612x612.jpg);
     background-repeat: no-repeat;
-    background-size: cover; 
-    overflow-x: hidden; 
+    background-size: cover;
     color: #333; /* Set text color */
   }
   
