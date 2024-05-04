@@ -1,9 +1,15 @@
 import React from 'react';
-import Home from './homepage/home';
+import { useState, useEffect } from 'react';
+import Navbar from './Navbar';
+import Home from './Home';
+
 function App() {
   return (
     <div className="App">
-    <Home />
+      <Navbar />
+      <div className="content">
+        <Home />
+      </div>
   </div>
   );
 }
