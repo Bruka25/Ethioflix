@@ -1,28 +1,34 @@
-import React from 'react'
-import './header.css'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './header.css';
+
 function Header() {
   return (
     <header>
        <nav>
             <ul>
-                <li>Home</li>
+                <li><Link to="/">Home</Link></li>
                     <li> 
-                    <a href="#">Genre</a> 
+                    <Link to="/genre">Genre</Link> 
 
                     </li>
                     <li>
-                        <a href="#">Country</a>   
+                        <Link to="/country">Country</Link>   
                     </li>
                     <li>
-                        <a href="#">Category</a>
+                        <Link to="/category">Category</Link>
                     </li>
-                <li>About</li>
+                <li><Link to="/about">About</Link></li>
             </ul>
         </nav>
-        <button>Log In</button>
-        <button>Sign Up</button>
+        <Link to="/login">
+          <button style={{ display: 'inline-block' }}>Log In</button>
+        </Link>
+        <Link to="/signup">
+          <button style={{ display: 'inline-block' }}>Sign Up</button>
+        </Link>
     </header>
   )
 }
 
-export default Header
+export default Header;

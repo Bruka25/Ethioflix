@@ -15,44 +15,6 @@ import zetenegnaw from '../images/zetenegnaw.jpg'
 const Home = () => {
   return (
     <div>
-      <header>
-        <nav>
-            <ul>
-                <li>Home</li>
-                    <li> 
-                    <a href="#">Genre</a> 
-                          <ul class="dropdown">
-                        <li><a href="#">Action</a></li> 
-                        <li><a href="#">Comedy</a></li>
-                        <li><a href="#">Drama</a></li>
-                    </ul>
-                    </li>
-                    <li>
-                        <a href="#">Country</a>
-                        <ul class="dropdown">
-                            <a href="#">Ethiopia</a>
-                            <a href="#">America</a>
-                            <a href="#">UK</a>
-                            <a href="#">South Africa</a>
-                            <a href="#">Australia</a>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">Category</a>
-                        <ul class="dropdown">
-                            <a href="#">Popular</a>
-                            <a href="#">Highest Rating</a>
-                            <a href="#">For Kids</a>
-                            <a href="#">Feature</a>
-                            <a href="#">Series</a>
-                        </ul>
-                    </li>
-                <li>About</li>
-            </ul>
-        </nav>
-        <button>Log In</button>
-        <button>Sign Up</button>
-    </header>
     <div class="home_trending">
         <div><h3>EthioFlix home of movies</h3></div>
         <div class="trending">
@@ -102,7 +64,6 @@ const Home = () => {
             </div>
         </div>
     </div>
-    <footer>Ethioflix</footer>
     </div>
   )
 }

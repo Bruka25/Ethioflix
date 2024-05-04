@@ -1,8 +1,9 @@
 import React from 'react';
 import './login.css';
 
-function Login() { 
+function Login() {
   return (
+    <div className="login-page-body"> 
       <div className="flix-login">
         <h1>Ethioflix login page</h1>
         <h3>Enter your credentials</h3>
@@ -32,7 +33,8 @@ function Login() {
           <a href="#" style={{ textDecoration: 'none' }}> Create an account</a>
         </p>
       </div>
+    </div>
   );
 }
 
-export default Login; 
+export default Login;

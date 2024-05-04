@@ -71,12 +71,13 @@ body {
      justify-content: center;
      justify-content: space-evenly;
      width: 75%;
-     /*background: #05040ec2;*/
+     background: #05040ec2;
      padding: 2rem;
      border-radius: 8px;
      overflow-x: auto;
  
  }
+ 
  
  .trending::-webkit-scrollbar {
      display: none;
@@ -154,3 +155,4 @@ body {
  ul li a:hover{
      background: gray;   
  }
+ 
