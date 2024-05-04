@@ -7,7 +7,6 @@ function Signup() {
     <div className="signup-page-body">
     
       <div className="signup-container">
-      <h1>Ethioflix signup page</h1> 
         <form action="/flix_signup" method="post">
           <label htmlFor="name">Name:</label>
           <input type="text" id="name" name="name" required/>
