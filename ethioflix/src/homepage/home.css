@@ -1,54 +1,21 @@
 body {
     margin: auto 0;
-     padding: 0;
-     width: 100%;
-     /*background: #d8c200ad;*/
-     min-height: 100vh;
-     background: url(../images/istockphoto-1412871535-612x612.jpg);
-     background-repeat: no-repeat;
-     background-size: cover; 
-     /*position: absolute;*/
-     overflow-x: hidden; 
-    
- }
- header {
-     width: 100%;
-     position: fixed;
-     top: 0;
-     display: flex;
-     background: rgba(177, 101, 3, 0.836);
-     align-items: center;
-     justify-content: space-evenly;
-     color: whitesmoke;
-     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
- }
- 
- nav ul {
-     display: flex;
-     list-style: none;
-     font-size: large;
- 
- }
- 
- nav ul li {
-     margin-left: 2rem;
- }
- nav ul li:hover {
-     color: rgb(72, 0, 94);
- }
- 
- header button {
-     border: none;
-     border-radius:4px;
-     padding: 8px;
-     background: red;
-     color: aliceblue;
-     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     font-weight: 500;
-     margin-right: -35rem;
-     
- }
- 
+    width: 100%;
+    min-height: 100vh;
+    background: #817f81;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-top: 6.5rem;
+}
+
  .home_trending {
      display: flex;
      justify-content: center;
@@ -117,42 +84,3 @@ body {
      width: 8rem;
      height: 13rem;
  }
- 
- footer {
-     background-color: #333;
-     color: #fff;
-     padding: 20px;
-     text-align: center;
-     position: fixed;
-     bottom: 0;
-     width: 100%;
-     margin-top: 2rem;
- }
- 
- ul li {
-     display: inline-block;
-     position: relative;
- }
- ul li a{
-     display: block;
-     color: #fff; 
-     text-decoration: none;
-     text-align: center;
-     font-size: large;
- 
- }
- 
- ul li ul.dropdown li{
-     display: block;
- }
- ul li ul.dropdown{
-     width: 100%;
-     position: absolute;
-     z-index: 999;
-     display: none;
- }
- 
- ul li a:hover{
-     background: gray;   
- }
- 

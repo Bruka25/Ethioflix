@@ -1,13 +1,4 @@
 
-body {
-    font-family: Arial, sans-serif; /* Set the default font family */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
-    background: url(../images/istockphoto-1412871535-612x612.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #333; /* Set text color */
-  }
   
 
 .movie-list {

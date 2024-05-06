@@ -1,4 +1,5 @@
 import React from 'react'
+import SimpleImageSlider from "react-simple-image-slider";
 import "./home.css"
 import avengers from '../images/avengers.jpg'
 import panther from '../images/panther.jpg'
@@ -13,9 +14,29 @@ import yewendoch from '../images/yewguday.jpg'
 import zetenegnaw from '../images/zetenegnaw.jpg'
 
 const Home = () => {
+    const sliderImages = [
+        {
+           url: avengers,
+        },
+        {
+           url: batman,
+        },
+        {
+           url: panther,
+        }
+     ];
   return (
-    <div>
-    <div class="home_trending">
+    <div className='content'>
+        <div>
+         <SimpleImageSlider
+            width='100%'
+            height={500}
+            images={sliderImages}
+            showNavs={true}
+            autoPlay={true}
+         />
+        </div>
+        <div class="home_trending">
         <div><h3>EthioFlix home of movies</h3></div>
         <div class="trending">
             <div>
@@ -63,7 +84,7 @@ const Home = () => {
                 <p>Us</p>
             </div>
         </div>
-    </div>
+        </div>
     </div>
   )
 }
