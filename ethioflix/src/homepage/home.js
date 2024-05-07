@@ -26,7 +26,7 @@ const Home = () => {
         }
      ];
   return (
-    <div className='content'>
+    <div className='home_content'>
         <div>
          <SimpleImageSlider
             width='100%'
