@@ -9,6 +9,7 @@
     position: fixed;
     width: 100%;
     z-index: 1;
+    background: gainsboro;
   }
   .navbar h1 {
     color: #97022f;

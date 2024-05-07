@@ -15,14 +15,15 @@ import Genre from './genre/genre'
 
 function App() {
   return (
-    <><Header /><Routes>
+    <><Header />
+    <Routes>
        <Route path='/' element={<Home />} />
        <Route path='/login' element={<Lognin/>}/>
        <Route path='/signup' element={<Singnup/>}/>
        <Route path='/country' element={<Country/>}/>
        <Route path='/category' element={<Category/>}/>
        <Route path='/genre' element={<Genre/>} />  
-</Routes>
+    </Routes>
 <Footer /></>
     
   );
