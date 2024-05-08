@@ -5,9 +5,381 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: auto 0;
+  width: 100%;
+  min-height: 100vh;
+  background: #817f81;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.navbar {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background: gainsboro;
+}
+.navbar h1 {
+  width: 25%;
+  text-align: center;
+}
+
+.navbar h1 a {
+  text-decoration: none;
+  color: #ff5e00;
+}
+
+.navbar .navtab {
+  width: 25%;
+  display: flex;
+}
+.navbar .searchbar {
+  width: 25%;
+  display: flex;
+  text-align: end;
+  border: 3px solid orange;
+  border-radius: 5px;
+}
+.searchbar input {
+  padding: 7px;
+  width: 77%;
+  border: none;
+}
+.searchbar input:focus {
+  border-radius: 5px;
+  border-color: rgb(219, 184, 184);
+  box-shadow: 0 0 5px red;
+}
+.searchbar button {
+  padding: 7px;
+  border: 1px;
+  border-left: none;
+  border-right: orange;
+  border-top-right-radius: none;
+  border-radius: 2px;
+  background: orange;
+  width: 20%;
+}
+.navbar .navtab a {
+  padding: 8px;
+  color: rgb(190, 117, 26);
+}
+.navbar a {
+  text-decoration: none;
+}
+.navbar a:hover {
+  color: #5c333f;
+}
+.auth {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 25%;
+}
+.auth button{
+  padding: 8px;
+  border: none;
+  font-size: medium;
+}
+
+.auth button a {
+  color: black;
+}
+
+.auth button:nth-child(1) {
+  background-color: rgb(183, 221, 183);
+  border-radius: 8px;
+}
+.auth button:nth-child(2) {
+  background-color: rgb(255, 115, 0);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgb(179, 78, 11);
+  padding: 8px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  width: 25%;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-top: 6.5rem;
+}
+
+.home_trending {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   margin-top: 4rem;
+   margin-bottom: 8rem;
+   width: 100%;
+
+}
+
+.home_trending div h3 {
+   text-align: center;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 24px;
+}
+
+.trending {
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   justify-content: space-evenly;
+   width: 75%;
+   background: #05040ec2;
+   padding: 2rem;
+   border-radius: 8px;
+   overflow-x: auto;
+
+}
+
+
+.trending::-webkit-scrollbar {
+   display: none;
+ }
+.trending img {
+   width: 12rem;
+   height: 18rem;
+}
+
+.trending p {
+   margin-top: 0;
+   padding: 8px;
+   color: antiquewhite;
+}
+
+.popular {
+   display: none;
+   margin: auto;
+   width: 90%;
+   overflow-x: auto;
+   white-space: nowrap;
+   padding: 20px;
+}
+
+
+
+.popular::-webkit-scrollbar {
+   display: none;
+}
+
+.popular div {
+   width: 9rem;
+   margin-right: 20px;
+}
+
+.popular img {
+   width: 8rem;
+   height: 13rem;
+}
+
+.movieList {
+  display: flex;
+  flex-wrap: nowrap; /* Prevent items from wrapping to the next line */
+  overflow-x: auto; /* Enable horizontal scrolling if needed */
+  width: 100%; /* Set the container's width */
+}
+
+.genre {
+  margin-right: 20px; /* Add space between genres */
+}
+
+.movie {
+  padding: 10px;
+  margin-right: 10px; /* Add space between movies */
+}
+
+.movie img {
+  width: 10rem;
+}
+
+.action{
+  display: flex;
+}
+
+.comedy {
+  display: flex;
+}
+
+.drama{
+  display: flex;
+}
+/* sign_up.css */
+
+.signup-page-body body {
+  font-family: Arial, sans-serif;
+  background: url("./images2/istockphoto-1412871535-612x612.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ 
+.signup-page-body h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.signup-page-body form {
+  max-width: 300px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-page-body label {
+  display: block;
+  margin-bottom: 10px;
+  color: #ccc;
+}
+
+.signup-page-body input[type="text"], input[type="email"], input[type="password"] {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.signup-page-body button[type="submit"] {
+  width: 100%;
+  height: 40px;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signup-page-body  button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.login-page-body{
+  /*8background-color: green;*/
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+  min-height: 100vh;
+  line-height: 1.5;
+  margin: 0%;
+  justify-content: center;
+  align-items:center;
+  background: url('./images2/istockphoto-1412871535-612x612.jpg');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.login-page-body .flix-login{
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+  transform: 0.2s;
+  width: 400px;
+  text-align: center;
+
+}
+
+.login-page-body .flix-submit
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.login-page-body h1 {
+  color: yellow;
+}
+
+.login-page-body label {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-align: left;
+  color: black;
+  font-weight: bold;
+}
+
+.login-page-body input {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+}
+
+.login-page-body .flix-submit{
+  padding: 15px;
+  border-radius: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: none;
+  color: black;
+  cursor: pointer;
+  background-color: #4caf50;
+  width: 50%;
+  font-size: 16px;
 }

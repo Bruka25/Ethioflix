@@ -1,17 +1,16 @@
 import React from 'react'
 import SimpleImageSlider from "react-simple-image-slider";
-import "./home.css"
-import avengers from '../images/avengers.jpg'
-import panther from '../images/panther.jpg'
-import us from '../images/us.jpg'
-import batman from '../images/batman.jpg'
-import ensaro from '../images/ensaro.jpg'
-import yeadis from '../images/yeadisababa.png'
-import fourhundred from '../images/400.jpg'
-import friends from '../images/friends.jpg'
-import besintu from '../images/besintu.jpg'
-import yewendoch from '../images/yewguday.jpg'
-import zetenegnaw from '../images/zetenegnaw.jpg'
+import avengers from './images2/avengers.jpg'
+import panther from './images2/panther.jpg'
+import us from './images2/us.jpg'
+import batman from './images2/batman.jpg'
+import ensaro from './images2/ensaro.jpg'
+import yeadis from './images2/yeadisababa.png'
+import fourhundred from './images2/400.jpg'
+import friends from './images2/friends.jpg'
+import besintu from './images2/besintu.jpg'
+import yewendoch from './images2/yewguday.jpg'
+import zetenegnaw from './images2/zetenegnaw.jpg'
 
 const Home = () => {
     const sliderImages = [
@@ -89,4 +88,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Home;

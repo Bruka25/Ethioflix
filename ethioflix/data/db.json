@@ -1,0 +1,18 @@
+{
+    "images": [
+      {
+        "title": "Addisu Sew",
+        "url": "./images/posters/addisu_sew_poster.jpg",
+        "id": 1
+      },
+      {
+        "title": "Addisu Sew",
+        "url": "./images/posters/addisu_sew_poster.jpg",
+        "id": 2
+      },  {
+        "title": "Addisu Sew",
+        "url": "./images/posters/addisu_sew_poster.jpg",
+        "id": 3
+      }
+    ]
+  }
