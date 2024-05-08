@@ -4,10 +4,10 @@ function Login() {
   return (
     <div className="login-page-body"> 
       <div className="flix-login">
-        <h1>Ethioflix login page</h1>
+        <h1>Login</h1>
         <h3>Enter your credentials</h3>
         <form action="">
-          <label htmlFor="first"> username: </label>
+          <label htmlFor="first"> Username: </label>
           <input
             type="text"
             id="first"
@@ -15,7 +15,7 @@ function Login() {
             placeholder="Enter your username"
             required
           />
-          <label htmlFor="password"> password: </label>
+          <label htmlFor="password"> Password: </label>
           <input
             type="password"
             id="password"
@@ -24,7 +24,7 @@ function Login() {
             required
           />
           <div className="flix-submit">
-            <button type="submit">submit</button>
+            <button type="submit" >submit</button>
           </div>
         </form>
         <p>

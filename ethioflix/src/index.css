@@ -330,12 +330,12 @@ code {
 
 .login-page-body .flix-login{
   border-radius: 15px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 25px rgba(255, 255, 255, 0.2);
   padding: 10px 20px;
   transform: 0.2s;
   width: 400px;
   text-align: center;
-
+  background-color: #333;
 }
 
 .login-page-body .flix-submit
@@ -348,7 +348,11 @@ code {
 
 
 .login-page-body h1 {
-  color: yellow;
+  color: rgb(230, 138, 0);
+}
+
+.login-page-body h3 {
+  color: rgb(172, 107, 233);
 }
 
 .login-page-body label {
@@ -357,7 +361,7 @@ code {
   margin-top: 10px;
   margin-bottom: 5px;
   text-align: left;
-  color: black;
+  color: rgb(255, 255, 255);
   font-weight: bold;
 }
 
@@ -371,15 +375,19 @@ code {
   border-radius: 15px;
 }
 
-.login-page-body .flix-submit{
+.login-page-body .flix-submit button{
   padding: 15px;
   border-radius: 15px;
   margin-top: 15px;
   margin-bottom: 15px;
   border: none;
-  color: black;
+  color: rgb(255, 255, 255);
   cursor: pointer;
-  background-color: #4caf50;
+  background-color: #eca200;
   width: 50%;
   font-size: 16px;
+}
+
+.login-page-body p a {
+  color: #e9b934;
 }
