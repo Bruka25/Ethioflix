@@ -1,23 +1,26 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Signup() {
   return (
-    
-    <div className="signup-page-body">
-    
-      <div className="signup-container">
-        <form action="/flix_signup" method="post">
-          <label htmlFor="name">Name:</label>
-          <input type="text" id="name" name="name" required/>
-          <br/>
+    <div className="signup-page-body"> 
+      <div className="flix-signup">
+        <h1>Sign Up</h1>
+        <form action="/flix_signup" method='post'>
+        <label htmlFor="name">Name:</label>
+          <input placeholder='Your Name' type="text" id="name" name="name" required/>
           <label htmlFor="email">Email:</label>
-          <input type="email" id="email" name="email" required/>
-          <br/>
+          <input placeholder='Your email address' type="email" id="email" name="email" required/>
           <label htmlFor="password">Password:</label>
-          <input type="password" id="password" name="password" required/>
-          <br/>
-          <button type="submit">Sign Up</button>
+          <input placeholder='Password' type="password" id="password" name="password" required/>
+          <div className="flix-submit">
+            <button type="submit" >Sign up</button>
+          </div>
         </form>
+        <p>
+          Already have an account?
+          <Link to="/login" style={{ textDecoration: 'none' }}> login here</Link>
+        </p>
       </div>
     </div>
   );

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Login() {
   return (
@@ -24,12 +25,12 @@ function Login() {
             required
           />
           <div className="flix-submit">
-            <button type="submit" >submit</button>
+            <button type="submit" >Log in</button>
           </div>
         </form>
         <p>
           Not registered?
-          <a href="#" style={{ textDecoration: 'none' }}> Create an account</a>
+          <Link to="/signup" style={{ textDecoration: 'none' }}> Create an account</Link>
         </p>
       </div>
     </div>

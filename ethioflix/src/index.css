@@ -262,59 +262,10 @@ code {
 .drama{
   display: flex;
 }
-/* sign_up.css */
 
-.signup-page-body body {
-  font-family: Arial, sans-serif;
-  background: url("./images2/istockphoto-1412871535-612x612.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
- 
-.signup-page-body h1 {
-  text-align: center;
-  color: #333;
-  margin-bottom: 20px;
-}
+/* Authentication */
 
-.signup-page-body form {
-  max-width: 300px;
-  margin: 40px auto;
-  padding: 20px;
-  border: 1px solid #ddd;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.signup-page-body label {
-  display: block;
-  margin-bottom: 10px;
-  color: #ccc;
-}
-
-.signup-page-body input[type="text"], input[type="email"], input[type="password"] {
-  width: 100%;
-  height: 40px;
-  margin-bottom: 20px;
-  padding: 10px;
-  border: 1px solid #ccc;
-}
-
-.signup-page-body button[type="submit"] {
-  width: 100%;
-  height: 40px;
-  background-color: #4CAF50;
-  color: #fff;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.signup-page-body  button[type="submit"]:hover {
-  background-color: #3e8e41;
-}
-
-.login-page-body{
+.login-page-body, .signup-page-body {
   /*8background-color: green;*/
   display: flex;
   font-family: "Times New Roman", Times, serif;
@@ -328,7 +279,7 @@ code {
   background-repeat: no-repeat;
 }
 
-.login-page-body .flix-login{
+.login-page-body .flix-login, .signup-page-body .flix-signup{
   border-radius: 15px;
   box-shadow: 0 10px 25px rgba(255, 255, 255, 0.2);
   padding: 10px 20px;
@@ -338,16 +289,14 @@ code {
   background-color: #333;
 }
 
-.login-page-body .flix-submit
+.login-page-body .flix-submit, .signup-page-body .flix-submit
 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-
-
-.login-page-body h1 {
+.login-page-body h1, .signup-page-body h1 {
   color: rgb(230, 138, 0);
 }
 
@@ -355,7 +304,7 @@ code {
   color: rgb(172, 107, 233);
 }
 
-.login-page-body label {
+.login-page-body label, .signup-page-body label {
   display: block;
   width: 100%;
   margin-top: 10px;
@@ -365,7 +314,7 @@ code {
   font-weight: bold;
 }
 
-.login-page-body input {
+.login-page-body input, .signup-page-body input {
   display: block;
   width: 100%;
   margin-bottom: 15px;
@@ -375,7 +324,7 @@ code {
   border-radius: 15px;
 }
 
-.login-page-body .flix-submit button{
+.login-page-body .flix-submit button, .signup-page-body .flix-submit button{
   padding: 15px;
   border-radius: 15px;
   margin-top: 15px;
@@ -388,6 +337,6 @@ code {
   font-size: 16px;
 }
 
-.login-page-body p a {
+.login-page-body p a, .signup-page-body p a {
   color: #e9b934;
 }
