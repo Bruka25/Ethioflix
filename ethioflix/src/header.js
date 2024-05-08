@@ -8,7 +8,7 @@ function Header() {
         <div className="navtab">
             <Link to="/">Home</Link>
             <div className="dropdown">
-                <button className="dropbtn">Category</button>
+                <button className="dropbtn"><Link to="/movies" >Movies</Link></button>
                 <div className="dropdown-content">
                     <div className="home">
                         <h4>Home</h4>
@@ -18,7 +18,7 @@ function Header() {
                     </div>
                     <div className="genre">
                         <h4>Genre</h4>
-                        <Link to="/action">Action</Link>
+                        <Link to="/movies/genre/action">Action</Link>
                         <a href="/adventure">Adventure</a>
                         <a href="/crime">Crime</a>
                         <a href="/drama">Drama</a>

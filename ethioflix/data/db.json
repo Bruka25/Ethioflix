@@ -1,18 +1,80 @@
 {
-    "images": [
+    "movies": [
       {
         "title": "Addisu Sew",
-        "url": "./images/posters/addisu_sew_poster.jpg",
+        "imageUrl": "./images/posters/addisu_sew_poster.jpg",
         "id": 1
       },
       {
-        "title": "Addisu Sew",
-        "url": "./images/posters/addisu_sew_poster.jpg",
+        "title": "Aleme",
+        "imageUrl": "./images/posters/aleme_poster.jpg",
         "id": 2
-      },  {
-        "title": "Addisu Sew",
-        "url": "./images/posters/addisu_sew_poster.jpg",
+      },
+      {
+        "title": "Bene Kalesh",
+        "imageUrl": "./images/posters/bene_kalesh_poster.jpeg",
         "id": 3
+      },
+      {
+        "title": "Beza",
+        "imageUrl": "./images/posters/beza_poster.jpeg",
+        "id": 4
+      },
+      {
+        "title": "Yebalesiltan Lej",
+        "imageUrl": "./images/posters/yebalesltan_lej_poster.jpg",
+        "id": 5
+      },
+      {
+        "title": "Difret",
+        "imageUrl": "./images/posters/difret_poster.jpg",
+        "id": 6
+      },
+      {
+        "title": "Ewer Amora Kelabi",
+        "imageUrl": "./images/posters/ewer_amora_kelabi_poster.jpg",
+        "id": 7
+      },
+      {
+        "title": "Lamb",
+        "imageUrl": "./images/posters/lamb_poster.jpg",
+        "id": 8
+      },
+      {
+        "title": "Marign",
+        "imageUrl": "./images/posters/marign_poster.jpeg",
+        "id": 9
+      },
+      {
+        "title": "Meda",
+        "imageUrl": "./images/posters/meda_poster.jpeg",
+        "id": 10
+      },
+      {
+        "title": "Price Of Love",
+        "imageUrl": "./images/posters/price_of_love_poster.jpeg",
+        "id": 11
+      },
+      {
+        "title": "Sost 2",
+        "imageUrl": "./images/posters/sost_2_poster.jpeg",
+        "id": 12
+      },
+      {
+        "title": "Teza",
+        "imageUrl": "./images/posters/Teza_poster.jpg",
+        "id": 13
+      },
+      {
+        "title": "The Athlete",
+        "imageUrl": "./images/posters/the_athlete_poster.jpg",
+        "id": 14
+      },
+      {
+        "title": "Yabetse",
+        "imageUrl": "./images/posters/yabetse_poster.jpg",
+        "id": 15
       }
+      
     ]
   }

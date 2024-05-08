@@ -1,10 +1,10 @@
-const Movielist = ({ images }) => {
+const Movielist = ({ movies }) => {
   return (
     <div className="movieList">
-      {images.map(image => (
+      {movies.map(movie => (
         <div className="movie">
-           <img key={image.id} src={require(`${image.url}`)} alt={image.title} />
-           <p>{image.title}</p>
+           <img key={movie.id} src={require(`${movie.imageUrl}`)} alt={movie.title} />
+           <p>{movie.title}</p>
         </div>
       ))}
     </div>

@@ -36,7 +36,7 @@ const Home = () => {
          />
         </div>
         <div class="home_trending">
-        <div><h3>EthioFlix home of movies</h3></div>
+        <div><h3>EthioFlix Home Of Movies</h3></div>
         <div class="trending">
             <div>
                 <img src={ensaro} alt="ensaro"/>
