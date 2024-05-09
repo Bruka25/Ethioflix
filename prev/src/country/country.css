@@ -1,0 +1,42 @@
+
+body {
+    font-family: Arial, sans-serif; /* Set the default font family */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background: url(../images/istockphoto-1412871535-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #333; /* Set text color */
+  }
+  
+
+.movie-list {
+    display:list-item;
+    flex-wrap: nowrap; /* Prevent items from wrapping to the next line */
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+    width: 100%; /* Set the container's width */
+  }
+  
+  .genre {
+    margin-right: 20px; /* Add space between genres */
+  }
+
+  
+  
+  .movie {
+    background-color: #ddd;
+    padding: 10px;
+    margin-right: 10px; /* Add space between movies */
+  }
+
+  .action{
+    display: flex;
+  }
+
+  .comedy {
+    display: flex;
+  }
+
+  .drama{
+    display: flex;
+  }
