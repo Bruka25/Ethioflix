@@ -1,20 +1,72 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 function Signup() {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    // Send a POST request to the /signup URL
+    fetch('http://localhost:3000/signup', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name, email, password }),
+    })
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      return response.json();
+    })
+    .then((data) => {
+      console.log('Response from server:', data);
+      // Redirect the user to the login page after successful signup
+      window.location.href = '/login';
+    })
+    .catch((error) => {
+      console.error('Error:', error);
+    });
+  };
+
   return (
-    <div className="signup-page-body"> 
+    <div className="signup-page-body">
       <div className="flix-signup">
         <h1>Sign Up</h1>
-        <form action="/flix_signup" method='post'>
-        <label htmlFor="name">Name:</label>
-          <input placeholder='Your Name' type="text" id="name" name="name" required/>
+        <form onSubmit={handleSubmit}>
+          <label htmlFor="name">Name:</label>
+          <input
+            placeholder='Your Name'
+            type="text"
+            id="name"
+            name="name"
+            value={name}
+            onChange={(event) => setName(event.target.value)}
+            required
+          />
           <label htmlFor="email">Email:</label>
-          <input placeholder='Your email address' type="email" id="email" name="email" required/>
+          <input
+            placeholder='Your email address'
+            type="email"
+            id="email"
+            name="email"
+            value={email}
+            onChange={(event) => setEmail(event.target.value)}
+            required
+          />
           <label htmlFor="password">Password:</label>
-          <input placeholder='Password' type="password" id="password" name="password" required/>
+          <input
+            placeholder='Password'
+            type="password"
+            id="password"
+            name="password"
+            value={password}
+            onChange={(event) => setPassword(event.target.value)}
+            required
+          />
           <div className="flix-submit">
-            <button type="submit" >Sign up</button>
+            <button type="submit">Sign Up</button>
           </div>
         </form>
         <p>
@@ -26,4 +78,4 @@ function Signup() {
   );
 }
 
-export default Signup;
+export default Signup; 
