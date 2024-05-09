@@ -24,7 +24,7 @@ function Landing() {
             <div className="internal-wrapper">
               <div className="model"></div>
 
-              <div className="product-title">Ethioflix</div>
+              <div className="product-title">EthioFLIX</div>
 
               <div className="brief-description">
                 Elevating Ethiopian Cinema, Anytime, Anywhere.

@@ -5,7 +5,7 @@ function About() {
     <div>
       <h2>About EthioFLIX</h2>
       <p>
-        EthioFLX is a premier destination for streaming Ethiopian movies,
+        EthioFLIX is a premier destination for streaming Ethiopian movies,
         providing access to a diverse range of Ethiopian films.
       </p>
 
@@ -16,7 +16,7 @@ function About() {
         support Ethiopian films.
       </p>
 
-      <h3>Why Choose EthioFLX?</h3>
+      <h3>Why Choose EthioFLIX?</h3>
       <p>With EthioFLIX, you can:</p>
       <ul>
         <li>
@@ -40,7 +40,7 @@ function About() {
       <h3>Contact Us</h3>
       <p>
         Have questions or feedback? We'd love to hear from you! Contact us at
-        support@ethioflx.com.
+        support@EthioFLIX.com.
       </p>
     </div>
   );
