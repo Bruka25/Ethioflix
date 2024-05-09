@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import SimpleImageSlider from "react-simple-image-slider";
 import avengers from './images2/avengers.jpg'
 import panther from './images2/panther.jpg'
@@ -11,33 +11,39 @@ import friends from './images2/friends.jpg'
 import besintu from './images2/besintu.jpg'
 import yewendoch from './images2/yewguday.jpg'
 import zetenegnaw from './images2/zetenegnaw.jpg'
+import useFetch from './useFetch';
 
 const Home = () => {
-    const sliderImages = [
-        {
-           url: avengers,
-        },
-        {
-           url: batman,
-        },
-        {
-           url: panther,
+    const [bannerImages, setBannerImages] = useState([])
+    const { error, isPending, data: moviesBannerImages } = useFetch('http://localhost:8000/moviesBannerImages');
+    useEffect(() => {
+        if (moviesBannerImages) {
+            const imagesArray = moviesBannerImages.map(image => ({
+                url: require(`${image.url}`)
+            }));
+            console.log(imagesArray);
+            setBannerImages(imagesArray);
         }
-     ];
+    }, [moviesBannerImages]);
+
   return (
     <div className='home_content'>
         <div>
-         <SimpleImageSlider
+        {
+            moviesBannerImages 
+            &&
+            <SimpleImageSlider
             width='100%'
             height={500}
-            images={sliderImages}
+            images={bannerImages}
             showNavs={true}
             autoPlay={true}
-         />
+            />
+        }
         </div>
-        <div class="home_trending">
+        <div className="home_trending">
         <div><h3>EthioFlix Home Of Movies</h3></div>
-        <div class="trending">
+        <div className="trending">
             <div>
                 <img src={ensaro} alt="ensaro"/>
                 <p>Ensaro</p>
