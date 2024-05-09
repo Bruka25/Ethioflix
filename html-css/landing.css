@@ -1,0 +1,93 @@
+/* LandingPage.css */
+
+/* Body */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/istockphoto-1412871535-612x612.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif; /* Adjust font-family as needed */
+  color: #fff; /* Set text color to white */
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+  border-radius: 10px; /* Add some rounded corners */
+}
+
+/* Cover image */
+.cover-image {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+/* Project name */
+.project-name {
+  font-size: 48px; /* Increase font size */
+  margin-top: 20px;
+  text-align: center; /* Center align the text */
+}
+
+/* Description */
+.description {
+  font-size: 24px; /* Increase font size */
+  margin-bottom: 20px;
+  text-align: center; /* Center align the text */
+}
+
+/* Navigation */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center; /* Center align the navigation */
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff; /* Set navigation text color to white */
+  font-size: 24px; /* Increase font size */
+}
+
+/* Button */
+.button {
+  display: inline-block;
+  padding: 15px 30px; /* Increase padding */
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 25px; /* Increase border radius for a rounded button */
+  font-size: 24px; /* Increase font size */
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Key Features Section */
+#key-features {
+  margin-top: 40px;
+}
+
+.feature {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.feature-image {
+  width: 250px; /* Increase image size */
+  height: auto;
+  margin-bottom: 20px;
+}
