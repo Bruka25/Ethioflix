@@ -1,212 +1,211 @@
 {
-    "movies": [
-      {
-        "title": "Addisu Sew",
-        "imageUrl": "./images/posters/addisu_sew_poster.jpg",
-        "id": 1
-      },
-      {
-        "title": "Aleme",
-        "imageUrl": "./images/posters/aleme_poster.jpg",
-        "id": 2
-      },
-      {
-        "title": "Bene Kalesh",
-        "imageUrl": "./images/posters/bene_kalesh_poster.jpeg",
-        "id": 3
-      },
-      {
-        "title": "Beza",
-        "imageUrl": "./images/posters/beza_poster.jpeg",
-        "id": 4
-      },
-      {
-        "title": "Yebalesiltan Lej",
-        "imageUrl": "./images/posters/yebalesltan_lej_poster.jpg",
-        "id": 5
-      },
-      {
-        "title": "Difret",
-        "imageUrl": "./images/posters/difret_poster.jpg",
-        "id": 6
-      },
-      {
-        "title": "Ewer Amora Kelabi",
-        "imageUrl": "./images/posters/ewer_amora_kelabi_poster.jpg",
-        "id": 7
-      },
-      {
-        "title": "Lamb",
-        "imageUrl": "./images/posters/lamb_poster.jpg",
-        "id": 8
-      },
-      {
-        "title": "Marign",
-        "imageUrl": "./images/posters/marign_poster.jpeg",
-        "id": 9
-      },
-      {
-        "title": "Meda",
-        "imageUrl": "./images/posters/meda_poster.jpeg",
-        "id": 10
-      },
-      {
-        "title": "Price Of Love",
-        "imageUrl": "./images/posters/price_of_love_poster.jpeg",
-        "id": 11
-      },
-      {
-        "title": "Sost 2",
-        "imageUrl": "./images/posters/sost_2_poster.jpeg",
-        "id": 12
-      },
-      {
-        "title": "Teza",
-        "imageUrl": "./images/posters/Teza_poster.jpg",
-        "id": 13
-      },
-      {
-        "title": "The Athlete",
-        "imageUrl": "./images/posters/the_athlete_poster.jpg",
-        "id": 14
-      },
-      {
-        "title": "Yabetse",
-        "imageUrl": "./images/posters/yabetse_poster.jpg",
-        "id": 15
-      }
-      
-    ],
-    "moviesBanner": [
-      {
-        "title": "Ateresagn",
-        "url": "./images/ateresagn.jpeg",
-        "id": 1
-      },
-      {
-        "title": "Awoko Abed",
-        "url": "./images/awoko_abed.jpeg",
-        "id": 2
-      },
-      {
-        "title": "Befikir",
-        "url": "./images/befikir.jpeg",
-        "id": 3
-      },
-      {
-        "title": "Dynamite",
-        "url": "./images/dynamite.jpeg",
-        "id": 4
-      },
-      {
-        "title": "Ensaro",
-        "url": "./images/ensaro.avif",
-        "id": 5
-      },
-      {
-        "title": "Fikir Bicha",
-        "url": "./images/fikir_bchajpg",
-        "id": 6
-      },
-      {
-        "title": "Kebealu Behuala",
-        "url": "./images/kebealu_behuala.jpeg",
-        "id": 7
-      },
-      {
-        "title": "Lalayish",
-        "url": "./images/lalayish.jpg",
-        "id": 8
-      },
-      {
-        "title": "Lamb",
-        "url": "./images/lamb2.jpg",
-        "id": 9
-      },
-      {
-        "title": "Lemetsetset",
-        "url": "./images/lemetsetset.jpg",
-        "id": 10
-      },
-      {
-        "title": "Man Yazewal",
-        "url": "./images/man_yazewal.jpg",
-        "id": 11
-      },
-      {
-        "title": "Sankofa",
-        "url": "./images/sankofa.jpeg",
-        "id": 12
-      },
-      {
-        "title": "Set Ayegebam",
-        "url": "./images/set_ayegebam.jpg",
-        "id": 13
-      },
-      {
-        "title": "Sisay New",
-        "url": "./images/sisay_new.jpg",
-        "id": 14
-      },
-      {
-        "title": "Yegabicha Tewagi",
-        "url": "./images/yegabcha_tewagi.jpeg",
-        "id": 15
-      },
-      {
-        "title": "Yemchlewn Hulu",
-        "url": "./images/yemchlewn_hulu.jpeg",
-        "id": 16
-      }
-    ],
-    "moviesBannerImages": [
-      {
-        "url": "./images/ateresagn.jpeg"
-      },
-      {
-        "url": "./images/awoko_abed.jpeg"
-      },
-      {
-        "url": "./images/befikir.jpeg"
-      },
-      {
-        "url": "./images/dynamite.jpeg"
-      },
-      {
-        "url": "./images/ensaro.avif"
-      },
-      {
-        "url": "./images/fikir_bcha.jpg"
-      },
-      {
-        "url": "./images/kebealu_behuala.jpeg"
-      },
-      {
-        "url": "./images/lalayish.jpg"
-      },
-      {
-        "url": "./images/lamb2.jpg"
-      },
-      {
-        "url": "./images/lemetsetset.jpg"
-      },
-      {
-        "url": "./images/man_yazewal.jpg"
-      },
-      {
-        "url": "./images/sankofa.jpeg"
-      },
-      {
-        "url": "./images/set_ayegebam.jpg"
-      },
-      {
-        "url": "./images/sisay_new.jpg"
-      },
-      {
-        "url": "./images/yegabcha_tewagi.jpeg"
-      },
-      {
-        "url": "./images/yemchlewn_hulu.jpeg"
-      }
-    ]
-  }
+  "movies": [
+    {
+      "title": "Addisu Sew",
+      "imageUrl": "./images/posters/addisu_sew_poster.jpg",
+      "id": 1
+    },
+    {
+      "title": "Aleme",
+      "imageUrl": "./images/posters/aleme_poster.jpg",
+      "id": 2
+    },
+    {
+      "title": "Bene Kalesh",
+      "imageUrl": "./images/posters/bene_kalesh_poster.jpeg",
+      "id": 3
+    },
+    {
+      "title": "Beza",
+      "imageUrl": "./images/posters/beza_poster.jpeg",
+      "id": 4
+    },
+    {
+      "title": "Yebalesiltan Lej",
+      "imageUrl": "./images/posters/yebalesltan_lej_poster.jpg",
+      "id": 5
+    },
+    {
+      "title": "Difret",
+      "imageUrl": "./images/posters/difret_poster.jpg",
+      "id": 6
+    },
+    {
+      "title": "Ewer Amora Kelabi",
+      "imageUrl": "./images/posters/ewer_amora_kelabi_poster.jpg",
+      "id": 7
+    },
+    {
+      "title": "Lamb",
+      "imageUrl": "./images/posters/lamb_poster.jpg",
+      "id": 8
+    },
+    {
+      "title": "Marign",
+      "imageUrl": "./images/posters/marign_poster.jpeg",
+      "id": 9
+    },
+    {
+      "title": "Meda",
+      "imageUrl": "./images/posters/meda_poster.jpeg",
+      "id": 10
+    },
+    {
+      "title": "Price Of Love",
+      "imageUrl": "./images/posters/price_of_love_poster.jpeg",
+      "id": 11
+    },
+    {
+      "title": "Sost 2",
+      "imageUrl": "./images/posters/sost_2_poster.jpeg",
+      "id": 12
+    },
+    {
+      "title": "Teza",
+      "imageUrl": "./images/posters/Teza_poster.jpg",
+      "id": 13
+    },
+    {
+      "title": "The Athlete",
+      "imageUrl": "./images/posters/the_athlete_poster.jpg",
+      "id": 14
+    },
+    {
+      "title": "Yabetse",
+      "imageUrl": "./images/posters/yabetse_poster.jpg",
+      "id": 15
+    }
+  ],
+  "moviesBanner": [
+    {
+      "title": "Ateresagn",
+      "url": "./images/ateresagn.jpeg",
+      "id": 1
+    },
+    {
+      "title": "Awoko Abed",
+      "url": "./images/awoko_abed.jpeg",
+      "id": 2
+    },
+    {
+      "title": "Befikir",
+      "url": "./images/befikir.jpeg",
+      "id": 3
+    },
+    {
+      "title": "Dynamite",
+      "url": "./images/dynamite.jpeg",
+      "id": 4
+    },
+    {
+      "title": "Ensaro",
+      "url": "./images/ensaro.avif",
+      "id": 5
+    },
+    {
+      "title": "Fikir Bicha",
+      "url": "./images/fikir_bcha.png",
+      "id": 6
+    },
+    {
+      "title": "Kebealu Behuala",
+      "url": "./images/kebealu_behuala.jpeg",
+      "id": 7
+    },
+    {
+      "title": "Lalayish",
+      "url": "./images/lalayish.jpg",
+      "id": 8
+    },
+    {
+      "title": "Lamb",
+      "url": "./images/lamb2.jpg",
+      "id": 9
+    },
+    {
+      "title": "Lemetsetset",
+      "url": "./images/lemetsetset.jpg",
+      "id": 10
+    },
+    {
+      "title": "Man Yazewal",
+      "url": "./images/man_yazewal.jpg",
+      "id": 11
+    },
+    {
+      "title": "Sankofa",
+      "url": "./images/sankofa.jpeg",
+      "id": 12
+    },
+    {
+      "title": "Set Ayegebam",
+      "url": "./images/set_ayegebam.jpg",
+      "id": 13
+    },
+    {
+      "title": "Sisay New",
+      "url": "./images/sisay_new.jpg",
+      "id": 14
+    },
+    {
+      "title": "Yegabicha Tewagi",
+      "url": "./images/yegabcha_tewagi.jpeg",
+      "id": 15
+    },
+    {
+      "title": "Yemchlewn Hulu",
+      "url": "./images/yemchlewn_hulu.jpeg",
+      "id": 16
+    }
+  ],
+  "moviesBannerImages": [
+    {
+      "url": "./images/ateresagn.jpeg"
+    },
+    {
+      "url": "./images/awoko_abed.jpeg"
+    },
+    {
+      "url": "./images/befikir.jpeg"
+    },
+    {
+      "url": "./images/dynamite.jpeg"
+    },
+    {
+      "url": "./images/ensaro.avif"
+    },
+    {
+      "url": "./images/fikir_bcha.png"
+    },
+    {
+      "url": "./images/kebealu_behuala.jpeg"
+    },
+    {
+      "url": "./images/lalayish.jpg"
+    },
+    {
+      "url": "./images/lamb2.jpg"
+    },
+    {
+      "url": "./images/lemetsetset.jpg"
+    },
+    {
+      "url": "./images/man_yazewal.jpg"
+    },
+    {
+      "url": "./images/sankofa.jpeg"
+    },
+    {
+      "url": "./images/set_ayegebam.jpg"
+    },
+    {
+      "url": "./images/sisay_new.jpg"
+    },
+    {
+      "url": "./images/yegabcha_tewagi.jpeg"
+    },
+    {
+      "url": "./images/yemchlewn_hulu.jpeg"
+    }
+  ]
+}

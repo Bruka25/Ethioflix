@@ -1,33 +1,35 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Signup() {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const navigate = useNavigate(); // Access the history object to navigate programmatically
 
   const handleSubmit = (event) => {
     event.preventDefault();
     // Send a POST request to the /signup URL
-    fetch('http://localhost:3000/signup', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+    fetch("http://localhost:3000/signup", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ name, email, password }),
     })
-    .then((response) => {
-      if (!response.ok) {
-        throw new Error('Network response was not ok');
-      }
-      return response.json();
-    })
-    .then((data) => {
-      console.log('Response from server:', data);
-      // Redirect the user to the login page after successful signup
-      window.location.href = '/login';
-    })
-    .catch((error) => {
-      console.error('Error:', error);
-    });
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+        return response.json();
+      })
+      .then((data) => {
+        console.log("Response from server:", data);
+        // Redirect the user to the welcome page after successful signup
+        navigate("/welcome");
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+      });
   };
 
   return (
@@ -37,7 +39,7 @@ function Signup() {
         <form onSubmit={handleSubmit}>
           <label htmlFor="name">Name:</label>
           <input
-            placeholder='Your Name'
+            placeholder="Your Name"
             type="text"
             id="name"
             name="name"
@@ -47,7 +49,7 @@ function Signup() {
           />
           <label htmlFor="email">Email:</label>
           <input
-            placeholder='Your email address'
+            placeholder="Your email address"
             type="email"
             id="email"
             name="email"
@@ -57,7 +59,7 @@ function Signup() {
           />
           <label htmlFor="password">Password:</label>
           <input
-            placeholder='Password'
+            placeholder="Password"
             type="password"
             id="password"
             name="password"
@@ -71,11 +73,14 @@ function Signup() {
         </form>
         <p>
           Already have an account?
-          <Link to="/login" style={{ textDecoration: 'none' }}> login here</Link>
+          <Link to="/login" style={{ textDecoration: "none" }}>
+            {" "}
+            login here
+          </Link>
         </p>
       </div>
     </div>
   );
 }
 
-export default Signup; 
+export default Signup;

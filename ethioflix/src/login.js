@@ -1,33 +1,33 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Login() {
-  const [name, setName] = useState('');
-  const [password, setPassword] = useState('');
+  const [name, setName] = useState("");
+  const [password, setPassword] = useState("");
   const [error, setError] = useState(null);
 
   const handleSubmit = (event) => {
     event.preventDefault();
     // Send a POST request to the /login URL
-    fetch('http://localhost:3000/login', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+    fetch("http://localhost:3000/login", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ name, password }),
     })
-  .then((response) => {
-      if (!response.ok) {
-        throw new Error('Invalid name or password');
-      }
-      return response.json();
-    })
-  .then((data) => {
-      // Redirect the user to the home page after successful login
-      window.location.href = '/';
-    })
-  .catch((error) => {
-      console.error('Error:', error);
-      setError('Invalid username or password');
-    });
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Invalid name or password");
+        }
+        return response.json();
+      })
+      .then((data) => {
+        // Redirect the user to the home page after successful login
+        window.location.href = "/home";
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+        setError("Invalid username or password");
+      });
   };
 
   return (
@@ -62,7 +62,10 @@ function Login() {
         </form>
         <p>
           Not registered?
-          <Link to="/signup" style={{ textDecoration: 'none' }}> Create an account</Link>
+          <Link to="/signup" style={{ textDecoration: "none" }}>
+            {" "}
+            Create an account
+          </Link>
         </p>
       </div>
     </div>
