@@ -1,13 +1,19 @@
-const Movielist = ({ movies }) => {
+import React from "react";
+import { Link } from "react-router-dom";
+
+const MovieList = ({ movies }) => {
   return (
     <div className="movieList">
-      {movies.map(movie => (
-        <div className="movie">
-           <img key={movie.id} src={require(`${movie.imageUrl}`)} alt={movie.title} />
-           <p>{movie.title}</p>
+      {movies.map((movie) => (
+        <div className="movie" key={movie.id}>
+          <Link to={`${movie.youtube}`}>
+            <img src={require(`${movie.imageUrl}`)} alt={movie.title} />
+          </Link>
+          <h3>{movie.title}</h3>
         </div>
       ))}
     </div>
   );
-}
-export default Movielist;
+};
+
+export default MovieList;
