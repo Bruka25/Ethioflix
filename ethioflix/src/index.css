@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -15,7 +15,7 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -89,7 +89,7 @@ code {
   justify-content: space-evenly;
   width: 25%;
 }
-.auth button{
+.auth button {
   padding: 8px;
   border: none;
   font-size: medium;
@@ -130,7 +130,7 @@ code {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   width: 25%;
 }
@@ -153,7 +153,6 @@ code {
   justify-content: space-around;
 }
 
-
 .content {
   position: absolute;
   top: 0;
@@ -163,71 +162,69 @@ code {
 }
 
 .home_trending {
-   display: flex;
-   justify-content: center;
-   flex-direction: column;
-   margin-top: 4rem;
-   margin-bottom: 8rem;
-   width: 100%;
-
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 4rem;
+  margin-bottom: 8rem;
+  width: 100%;
 }
 
 .home_trending div h3 {
-   text-align: center;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   font-size: 34px;
-   font-weight: 700;
-   color: #eca200;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  color: #eca200;
 }
 
 .trending {
-   margin: auto;
-   display: flex;
-   justify-content: center;
-   justify-content: space-evenly;
-   width: 75%;
-   background: #05040ec2;
-   padding: 2rem;
-   border-radius: 8px;
-   overflow-x: auto;
-
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  width: 75%;
+  background: #05040ec2;
+  padding: 2rem;
+  border-radius: 8px;
+  overflow-x: auto;
 }
 
 .trending::-webkit-scrollbar {
-   display: none;
- }
+  display: none;
+}
 .trending img {
-   width: 12rem;
-   height: 18rem;
+  width: 12rem;
+  height: 18rem;
 }
 
 .trending p {
-   margin-top: 0;
-   padding: 8px;
-   color: antiquewhite;
+  margin-top: 0;
+  padding: 8px;
+  color: antiquewhite;
 }
 
 .popular {
-   display: none;
-   margin: auto;
-   width: 90%;
-   overflow-x: auto;
-   white-space: nowrap;
-   padding: 20px;
+  display: none;
+  margin: auto;
+  width: 90%;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 20px;
 }
 
 .popular::-webkit-scrollbar {
-   display: none;
+  display: none;
 }
 
 .popular div {
-   width: 9rem;
-   margin-right: 20px;
+  width: 9rem;
+  margin-right: 20px;
 }
 
 .popular img {
-   width: 8rem;
-   height: 13rem;
+  width: 8rem;
+  height: 13rem;
 }
 
 .moviesContent {
@@ -260,12 +257,13 @@ code {
   text-align: center;
   border: 1px #bda96d solid;
   color: #eca200;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
-
 /* Authentication */
-.login-page-body, .signup-page-body {
+.login-page-body,
+.signup-page-body {
   /*8background-color: green;*/
   display: flex;
   font-family: "Times New Roman", Times, serif;
@@ -273,13 +271,14 @@ code {
   line-height: 1.5;
   margin: 0%;
   justify-content: center;
-  align-items:center;
-  background: url('./images2/istockphoto-1412871535-612x612.jpg');
+  align-items: center;
+  background: url("./images2/istockphoto-1412871535-612x612.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
 
-.login-page-body .flix-login, .signup-page-body .flix-signup{
+.login-page-body .flix-login,
+.signup-page-body .flix-signup {
   border-radius: 15px;
   box-shadow: 0 10px 25px rgba(255, 255, 255, 0.2);
   padding: 10px 20px;
@@ -289,14 +288,15 @@ code {
   background-color: #333;
 }
 
-.login-page-body .flix-submit, .signup-page-body .flix-submit
-{
+.login-page-body .flix-submit,
+.signup-page-body .flix-submit {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.login-page-body h1, .signup-page-body h1 {
+.login-page-body h1,
+.signup-page-body h1 {
   color: rgb(230, 138, 0);
 }
 
@@ -304,7 +304,8 @@ code {
   color: rgb(172, 107, 233);
 }
 
-.login-page-body label, .signup-page-body label {
+.login-page-body label,
+.signup-page-body label {
   display: block;
   width: 100%;
   margin-top: 10px;
@@ -314,7 +315,8 @@ code {
   font-weight: bold;
 }
 
-.login-page-body input, .signup-page-body input {
+.login-page-body input,
+.signup-page-body input {
   display: block;
   width: 100%;
   margin-bottom: 15px;
@@ -324,7 +326,8 @@ code {
   border-radius: 15px;
 }
 
-.login-page-body .flix-submit button, .signup-page-body .flix-submit button{
+.login-page-body .flix-submit button,
+.signup-page-body .flix-submit button {
   padding: 15px;
   border-radius: 15px;
   margin-top: 15px;
@@ -337,7 +340,8 @@ code {
   font-size: 16px;
 }
 
-.login-page-body p a, .signup-page-body p a {
+.login-page-body p a,
+.signup-page-body p a {
   color: #e9b934;
 }
 
@@ -350,4 +354,31 @@ footer {
   width: 100%;
   margin-top: 2rem;
   position: fixed;
+}
+
+.movie img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.movie img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.movie.playSign {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 5rem;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.movie:hover.playSign {
+  opacity: 1;
 }
