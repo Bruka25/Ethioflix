@@ -14,7 +14,7 @@ import Footer from "./footer";
 import Movies from "./Movies";
 import Landing from "./landing/landing";
 import About from "./about/about";
-import Logout from "./logout/logout";
+//import Logout from "./logout/logout";
 import Welcome from "./welcome/welcome";
 
 function Content() {
@@ -42,7 +42,7 @@ function Content() {
           <Route path="/home" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
-          <Route path="/logout" element={<Logout />} />
+
           <Route path="/welcome" element={<Welcome />} />
           <Route path="/movies" element={<Movies />} />
           <Route path="/movies/genre/action" element={<Movies />} />
