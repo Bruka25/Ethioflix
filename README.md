@@ -62,7 +62,9 @@ Open a pull request.
 Related Projects
 
 Netflix: [Netflix](https://www.netflix.com)
+
 Amazon Prime Video: [Amazon](https://www.amazon.com/amazonprime)
+
 Hulu : [Hulu](https://www.hulu.com)
 
 
@@ -106,4 +108,5 @@ Contact
 For any inquiries or feedback, please contact us:
 
 Biruk Assefa: bkteshome862@gmail.com
+
 Bay Nigussie: bayiemeseret@gmail.com
