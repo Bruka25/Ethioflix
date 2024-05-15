@@ -11,6 +11,7 @@ Read our [final project blog article](https://www.linkedin.com/pulse/introducing
 Author LinkedIn Profiles:
 
 Biruk Assefa: [LinkedIn](https://www.linkedin.com/in/bruka)
+
 Bay Nigussie: [LinkedIn](https://www.linkedin.com/in/bay-nigussie)
 
 Installation
@@ -89,8 +90,8 @@ Database Integration:
 
 Successfully integrated MySQL database for user authentication.
 Overcame initial issues with connecting WAMP server to the backend.
-API Routing:
 
+API Routing:
 Ensured all APIs are properly routed and functioning.
 Personal Experience
 Movies are a beloved form of entertainment, but in Ethiopia, legal streaming services are scarce. This project's inspiration came from personal experiences and challenges faced by my sister, a filmmaker who struggled with the limitations of current distribution methods.
@@ -103,5 +104,6 @@ Personal Growth: Discovered a preference for backend development and gained appr
 Contact
 
 For any inquiries or feedback, please contact us:
+
 Biruk Assefa: bkteshome862@gmail.com
 Bay Nigussie: bayiemeseret@gmail.com
