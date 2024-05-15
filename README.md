@@ -9,6 +9,7 @@ Ethioflix is an innovative movie streaming platform designed specifically for Et
 Read our [final project blog article](https://www.linkedin.com/pulse/introducing-ethioflix-revolutionizing-movie-streaming-biruk-assefa-gi2je/)
 
 Author LinkedIn Profiles:
+
 Biruk Assefa: [LinkedIn](https://www.linkedin.com/in/bruka)
 Bay Nigussie: [LinkedIn](https://www.linkedin.com/in/bay-nigussie)
 
@@ -58,6 +59,7 @@ Push to the branch (git push origin feature/YourFeature).
 Open a pull request.
 
 Related Projects
+
 Netflix: [Netflix](https://www.netflix.com)
 Amazon Prime Video: [Amazon](https://www.amazon.com/amazonprime)
 Hulu : [Hulu](https://www.hulu.com)
@@ -99,7 +101,7 @@ Planning: The importance of detailed planning and communication with team member
 Personal Growth: Discovered a preference for backend development and gained appreciation for modern code editors like VS Code over traditional ones like Vim.
 
 Contact
-For any inquiries or feedback, please contact us:
 
+For any inquiries or feedback, please contact us:
 Biruk Assefa: bkteshome862@gmail.com
 Bay Nigussie: bayiemeseret@gmail.com
