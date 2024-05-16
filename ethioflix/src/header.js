@@ -16,9 +16,7 @@ function Header() {
 
   return (
     <nav className="navbar">
-      <h1>
-        <Link to="/">EthioFLIX</Link>
-      </h1>
+      <h1>EthioFLIX</h1>
       <div className="navtab">
         <Link to="/home">Home</Link>
         <div className="dropdown">
@@ -53,9 +51,6 @@ function Header() {
         </button>
       </div>
       <div className="auth">
-        <button>
-          <Link to="/login">Log in</Link>
-        </button>
         <button onClick={handleLogout}>
           <Link to="/logout">Log out</Link>
         </button>

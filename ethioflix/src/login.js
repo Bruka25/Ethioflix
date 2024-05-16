@@ -59,6 +59,11 @@ function Login() {
           <div className="flix-submit">
             <button type="submit">Log in</button>
           </div>
+          {error && (
+            <div className="alert-message">
+              <p style={{ color: "red" }}>{error}</p>
+            </div>
+          )}
         </form>
         <p>
           Not registered?
